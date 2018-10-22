@@ -62,15 +62,16 @@ line-height: 24px;
 }
 
 .main__image {
-    margin: 0;
+    margin: -5px;
     width: 1062px;
-    height: 488px;
+    height: 574px;
 }
 .main__left {
-
+    padding: 0 0 28px 151px;
+    list-style-type: none;
     float: left;
 display: block;
-width: 600px;
+width: 740px;
 }
 
 .main__right {
