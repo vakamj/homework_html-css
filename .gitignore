@@ -1,6 +1,8 @@
+.idea/
+.DS_Store
 
-# WebStorm
-*.iml
-#*.png
-#*.jpeg
+# dependencies
+/node_modules
 
+# production
+/build
