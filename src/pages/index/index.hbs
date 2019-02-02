@@ -1,38 +1,5 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>homework</title>
-    <link rel="stylesheet" href="../styles/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-</head>
-
-<body>
-
-    <header class="header">
-        <a href="#"><img class="header__logo" src="../images/logo.jpeg" /></a>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a class="nav__link nav__link-disabled" href="index.html">home</a>
-                </li>
-                <li class="nav__item nav__item-active">
-                    <a class="nav__link nav__link-active" href="#">about</a>
-                </li>
-                <li class="nav__item nav__item-active">
-                    <a class="nav__link nav__link-active" href="#">archive</a>
-                </li>
-                <li class="nav__item nav__item-active">
-                    <a class="nav__link nav__link-active" href="index_contact.html">contact</a>
-                </li>
-                <div class="nav__search"></div>
-            </ul>
-
-        </nav>
-    </header>
-    <main>
-        <article class="post">
+{{#> layout/layout}}
+       <article class="post">
             <div class="post__button button-position">
                 <p class="post__category"> I Do Travel</p>
             </div>
@@ -158,47 +125,4 @@
                 </li>
             </ul>
         </article>
-        <footer class="footer">
-            <h1 class="footer__title">Palo Alto</h1>
-            <ul class="footer__links">
-                <li class="links__item ">
-                    <a class="links__elements links__elements-disabled" href="#">home</a>
-                </li>
-                <li class="links__item">
-                    <a class="links__elements" href="#">about</a>
-                </li>
-                <li class="links__item">
-                    <a class="links__elements" href="#">archive</a>
-                </li>
-                <li class="links__item">
-                    <a class="links__elements" href="#">contact</a>
-                </li>
-            </ul>
-            <p class="footer__text">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur
-                nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla
-                mattis tincidunt auctor.</p>
-            <p class="footer__info">© 2015 - Palo Alto. All Rights Reserved. Designed & Developed by <span class="footer__info__team">PixelBuddha
-                    Team</span></p>
-            <div class="footer__icon">
-                <ul class="footer__list">
-                    <li class="list__item ">
-                        <img src="../images/facebook.png" />
-                    </li>
-                    <li class="list__item ">
-                        <img src="../images/twitter.png" />
-                    </li>
-                    <li class="list__item ">
-                    <img src="../images/instagram.png" />
-                    </li>
-                    <li class="list__item ">
-                    <img src="../images/pinterest.png" />
-                    </li>
-                </ul>
-            </div>
-
-        </footer>
-    </main>
-
-</body>
-
-</html>
+{{/layout/layout}}

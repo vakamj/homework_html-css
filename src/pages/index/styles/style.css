@@ -1,0 +1,245 @@
+.post{
+    background-color: white;
+    max-width: 953px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 55px auto 50px auto;
+    position: relative;
+}
+
+.post__category {
+    top:50%;
+    font-size: 15px;
+    display: inline-block;
+    color: #ffffff;
+    line-height: 0;
+    font-weight: bold;
+    text-align: center; 
+}
+
+.post__button {
+    margin: auto;  
+    background-color: #5c6bc0;
+    float: right;
+    position: absolute;
+    text-align: center;
+}
+  
+.post__button:hover {
+    background-color: #6b79c6;
+}
+
+.post__button:active {
+    background-color: #5360ad;
+}
+
+.button-position:hover, .button-position:active  {
+    width: 105px;
+    height: 37px;
+}
+
+.button-position {
+    width: 102px;
+    height: 35px;  
+    top: 20px;
+    right: -10px;
+}
+.button-position2 {
+    width: 120px;
+    height: 35px;
+    right: -12px;
+    top: 550px;
+}
+.button-position3 {
+    width: 115px;
+    height: 35px;  
+    top:12px;
+    right: -10px;
+}
+
+.button-position2:hover,  .button-position2:active, .button-position3:hover, .button-position3:active {
+    width: 125px;
+    height: 37px;
+ }
+
+.post__date {
+    margin: 50px 0 0 102px;
+    font-size: 14px;
+    color: #bdbdbd;
+    font-weight: bold;
+   display:inline-block;
+}
+
+.post__title {
+    margin: 15px 0 0 0;
+    width: 715px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 38px;
+}
+
+.post__text {
+    margin:32px 0 0 0;
+    max-width: 750px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.post__read-more {
+    font-size: 21px;
+    color: #5c6bc0;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 25px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.post__read-more:hover {
+    border: 2px solid #f1f1f1;
+}
+
+.post__read-more:active {
+    border: 2px solid #7c89cc;
+}
+
+.post__hashtag {
+    float: right;
+    list-style: none; 
+    text-decoration: none;
+    margin-top: 36px;
+    margin-right: 65px;
+    display: block;
+   
+}
+
+.hashtag__item {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 50px;
+    color: #b2b2b2;
+    text-align: right;
+    margin-right: 15px;
+    text-decoration: none;
+    position: relative;
+}
+
+.hashtag__element {
+    font-size: 15px;
+    line-height: 50px;
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+.hashtag__element:hover {
+    color: #8792d1;
+}
+
+.hashtag__item:after {
+    color: #8792d1;
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 3px;
+    background-color: #8792d1;
+    margin-left: 13px; 
+    left: 100%;
+    transition: left 0.3s ease-in-out;
+    bottom:10px; 
+}
+
+.hashtag__item:hover:after {
+   left:0;
+}
+
+.hashtag__item:active {
+    color: #8792d1;
+}
+
+ .hashtag__item:active:after {
+    color: #8792d1;
+    width: 0%;
+}
+
+.post2__img {
+    width: 953px;
+    height: 531px;
+}
+
+.post2__title {
+    margin: 24px 0 70px 97px;
+    width: 715px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 38px;
+}
+
+.post2__subtitle {
+    margin: -40px 0 4px 97px;
+    width: 759px;
+    font-size: 25px;
+    line-height: 38px;
+    color: #000000;
+    font-style: italic;
+}
+
+.post2__text {
+    width: 757px;
+    margin: 22px 0 0 97px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.post3__title {
+    margin: 17px 0 39px 97px;
+    width: 740px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 34px;
+}
+
+.post3__img {
+    margin-left: 84px;
+    float: left;
+    padding-right: 23px;
+    padding-bottom: 30px;
+}
+
+.post3__text {
+    width: 750px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #333333;
+    margin-left: 103px;
+    margin-top: -3px;
+}
+
+.post3__text__bold {
+    font-weight: bold;
+    color:#6573c3;
+    border-bottom: 2px solid currentColor;
+}
+
+.post3__quote {
+    font-size: 20px;
+    line-height: 30px;
+    color: #8d8d8dd2;
+    max-width: 720px;
+    border-left-color:  #e4dfdf; 
+    border-left-style: solid; 
+    border-left-width: 4px; 
+    padding: 0 17px; 
+    margin: 0 0 30px 100px; 
+}
